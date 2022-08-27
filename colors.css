@@ -1,0 +1,53 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Orbitron', sans-serif;
+}
+#container{
+width:100%;
+}
+header{
+	margin-bottom:20px;
+	background-image:url("https://i.ytimg.com/vi/BWxMuQre3R8/maxresdefault.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.logo{
+	display:inline-block;
+	width:20%;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+.lih{
+	display:inline-block;
+	border:1px solid;
+	width:15.6%;
+	text-align:center;
+	background-color:#781ccc;
+	color:white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.lih:hover{
+	background-color:black;
+}
+
+/* unvisited link */
+a:link {
+  text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+  text-decoration:none;
+}
+
+#bottom{
+	padding:10px 0 10px;
+	color: white;
+	background:orange;
+}

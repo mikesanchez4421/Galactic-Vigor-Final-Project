@@ -1,0 +1,137 @@
+
+#namec{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+#phone{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+#email{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+#numc{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+#expm{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+#expy{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+#cvc{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 4px;
+}
+#container{
+	width:100%;
+	overflow:auto;
+}
+
+.sideimg{
+	width:33%;
+	display:table-cell;
+    vertical-align:middle;
+}
+
+.sideimg img{
+	width:200px;
+	opacity:0.3;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#left{
+	margin:auto;
+	margin-top:65px;
+	margin-bottom:20px;
+	width:50%;
+	background-color:#EAB2FF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow:auto;
+}
+
+#center{
+	margin:auto;
+	margin-top:65px;
+	margin-bottom:20px;
+	width:50%;
+	background-color:#ffffcc;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow:auto;
+}
+
+#right{
+	margin:auto;
+	margin-top:65px;
+	margin-bottom:20px;
+	width:50%;
+	background-color:#0094FF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow:auto;
+	
+}
+.text{
+	width:33%;
+	text-align:center;
+	margin:0 auto;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#buy{
+	display:inline-block;
+	border:1px solid;
+	width:100%;
+	text-align:center;
+	background-color:#781ccc;
+	color:white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top:10px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#buy:hover{
+	background-color:black;
+}
+

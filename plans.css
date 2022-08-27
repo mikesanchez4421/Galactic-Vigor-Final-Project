@@ -1,0 +1,74 @@
+body{
+	background-color: #cceaff;
+	padding: 0;
+	margin: 0;
+	font-family: 'Orbitron', sans-serif;
+}
+#container{
+	width:100%;
+}
+
+.sideimg{
+	width:33%;
+	display:table-cell;
+    vertical-align:middle;
+}
+
+.sideimg img{
+	width:200px;
+	opacity:0.3;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#left{
+	margin:auto;
+	margin-bottom:20px;
+	width:76%;
+	background-color:#EAB2FF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow:auto;
+}
+
+#right{
+	margin:auto;
+	margin-bottom:20px;
+	width:76%;
+	background-color:#0094FF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow:auto;
+}
+
+#center{
+	margin:auto;
+	margin-bottom:20px;
+	width:76%;
+	background-color:#ffffcc;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow:auto;
+}
+
+.text{
+	width:33%;
+	text-align:center;
+	margin:0 auto;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.lib{
+	display:inline-block;
+	border:1px solid;
+	width:60%;
+	text-align:center;
+	background-color:#781ccc;
+	color:white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top:10px;
+}
+
+.lib:hover{
+	background-color:black;
+}

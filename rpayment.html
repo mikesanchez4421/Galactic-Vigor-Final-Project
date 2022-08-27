@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Galactic Vigor</title>
+		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+		<link rel="icon" href="logo.png" type="image/jpg" sizes="16x16"/>
+		<link rel="stylesheet" type="text/css" href="payment.css"/>
+		<link rel="stylesheet" type="text/css" href="colors.css"/>
+		<script src="payment.js"></script> 
+	</head>
+	
+<body style="background-color:#EAB2FF;">
+	<header>
+		<center>
+		<a href="home.html"><img class="logo" src="logo.png"/></a>
+		<ul>	
+			<a href="home.html"><li class="lih">Home</li></a>
+			<a href="tour.html"><li class="lih">Tour</li></a>
+			<a href="plans.html"><li class="lih">Plans</li></a>
+			<a href="help.html"><li class="lih">Help</li></a>
+		</ul>
+		<center>
+	</header>
+	
+	<div id="container">
+		<form name = "myForm" action = "http://www.WebsiteDevelopmentBook.com/FormEcho.php" method = "post" onsubmit = "return ValidateForm(CardName,PhoneNum,EmailAdd,CardNumber,ExpirationMonth,ExpirationYear,CVC)" >
+	<table cellpadding="5" style="float:left;">
+
+			<th>Order</th>
+				<tr>
+					<td><b><i>Name on Card: <input id="namec" autocomplete="off" type = "text" name = "CardName"/>  <i><b><br></td>
+				</tr>
+				
+				<tr>
+					<td><p id="er1"></p></td>
+				</tr>
+				
+				<tr>
+					<td><b><i>Phone number: <input id="phone" autocomplete="off" type = "text" name = "PhoneNum"/>  <i><b><br></td>
+				</tr>
+				
+				<tr>
+					<td><p id="er6"></p></td>
+				</tr>
+
+				<tr>
+					<td><b><i>Email-Adress: <input id="email" autocomplete="off" type = "text" name = "EmailAdd"/>  <i><b><br></td>
+				</tr>
+				
+				<tr>
+					<td><p id="er7"></p></td>
+				</tr>
+				
+				<tr>
+					<td><b><i>Number on Card: <input  id="numc" autocomplete="off" type = "text" name = "CardNumber"/> <i><b><br></td>
+				</tr>
+				
+				<tr>
+					<td><p id="er2"></p></td>
+				</tr>
+			
+				<tr>
+					<td><b><i>ExpirationMonth: <input id="expm" autocomplete="off" type = "text" name = "ExpirationMonth"/>  <i><b><br></td>
+				</tr>
+				
+				<tr>
+					<td><p id="er3"></p></td>
+				</tr>
+				
+				<tr>
+					<td><b><i>ExpirationYear: <input id="expy" autocomplete="off" type = "text" name = "ExpirationYear"/>  <i><b><br></td>
+				</tr>
+				
+				<tr>
+					<td><p id="er4"></p></td>
+				</tr>
+				
+				<tr>
+					<td><b><i>CVC: <input id="cvc" autocomplete="off" type = "text" name = "CVC"/>  <i><b><br></td>
+				</tr>
+				
+				<tr>
+					<td><p id="er5"></p></td>
+				</tr>
+				
+				<tr>
+					<td><b><i> <input id="buy" type = "submit" value = "Click to Submit" /><i><b><br></td>
+				</tr>
+
+	</table>
+
+		<div id="left">
+
+			<div class="sideimg">
+				<img alt ="planet1"  src="planet.png"/>
+			</div>
+			
+			<div class="text">
+				<h1>Planet Plan</h1>
+				<h2>$5</h2>
+				<h4>
+				1 Time visit 
+				</br>
+				Not sure if this is the right gym for you?
+				</br>
+				Not ready to commit to a monthly plan?
+				</br>
+				Wanna get swole in a day?
+				</br>
+				</h4>
+				<h3>Try out our Solar plan for a day and hopefully change your mind:</h3>
+
+				<ul>
+					<li>Access Our state of the art Equipment</li>
+					<li>Sign up for a class or two</li>
+					<li>Learn about our personal trainers</li>
+				</ul>
+
+				</br>
+				</br>
+					
+			</div>
+			
+			<div class="sideimg">
+				<img alt ="planet2"  src="planet.png"/>
+			</div>
+					
+		</div>
+		</form>
+	</div>
+<footer id="bottom">
+	&copy;Galactic Vigor
+	<a href="http://www.facebook.com"><img width="20px" alt ="Facebook" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png"/></a>
+	<a href="http://www.twitter.com"><img width="20px" alt ="Twitter" src="https://pbs.twimg.com/profile_images/1092100446586630146/3uFY0wpD_400x400.jpg"/></a>
+	<p><a href="help.html">Contact Us:</a>
+
+			</br>Phone: 123-456-789
+			</br> or email us at
+			</br>Email: <a href = "mailto: Galactic_Vigor@SpaceForce.com">Galactic_Vigor@SpaceForce.com</a>
+			</br>Also visit us in person at 300 Jay street, our main Earth Office
+	</p>
+</footer>
+</body>
+</html>
